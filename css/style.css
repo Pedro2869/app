@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* Aqui entrará a parte que envolve a modidicação dos caracteres e acentuações se comportarem de forma compatível dentro dos navegadores */
 
 * {
     margin: 0;
