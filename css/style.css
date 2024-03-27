@@ -6,8 +6,34 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-title: #ffffff;
+    --color-background: linear-gradient(to bottom, #47BFDF, #4A91FF) no-repeat;
+}
+
 body {
-    width: auto;
-    height: auto;
+    height: 100vh;
+    margin: 0;
+
+    background: var(--color-background);
+}
+
+header#cabecalho .location-cabecalho {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+header#cabecalho .location-cabecalho h1 {
+    color: var(--color-title);
+}
+
+header#cabecalho img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
