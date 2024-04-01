@@ -9,13 +9,15 @@
 :root {
     --color-title: #ffffff;
     --color-background: linear-gradient(to bottom, #47BFDF, #4A91FF) no-repeat;
+    --color-background-origin: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
+    border-radius: 15px;
 }
 
 body {
     height: 100vh;
     margin: 0;
 
-    background: var(--color-background);
+    background: var(--color-background-origin);
 }
 
 header#cabecalho .location-cabecalho {
