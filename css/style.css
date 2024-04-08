@@ -56,3 +56,20 @@ header#cabecalho .imagem img {
     margin-top: 4rem;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main#parte-principal {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+    margin: 30px;
+}
+
+main .title-information-box h1 {
+    text-align: center;
+}
+
