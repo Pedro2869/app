@@ -14,10 +14,11 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     margin: 0;
 
     background: var(--color-background-origin);
+    background-repeat: no-repeat;
 }
 
 header#cabecalho .location-cabecalho {
@@ -31,6 +32,8 @@ header#cabecalho .location-cabecalho {
 
 header#cabecalho .location-cabecalho .notification img {
     margin-top: 32px;
+
+    cursor: pointer;
 }
 
 header#cabecalho .location-cabecalho .localization {
@@ -42,6 +45,8 @@ header#cabecalho .location-cabecalho .localization {
 
 header#cabecalho .location-cabecalho .localization img {
     margin-right: 20px;
+
+    cursor: pointer;
 }
 
 header#cabecalho .location-cabecalho h1 {
@@ -69,10 +74,13 @@ main#parte-principal {
     margin: 30px;
 
     color: white;
+    padding: 5px 10px;
 }
 
 main .title-information-box h1 {
     text-align: center;
+
+    font-size: 4rem;
 }
 
 main#parte-principal .title-information-box h4 {
@@ -84,5 +92,28 @@ main#parte-principal .icons .hum {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1.5rem;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+footer#menu-oculto {
+    background-color: white;
+    border-radius: 20px;
+}
+
+footer#menu-oculto p {
+    color: rgba(68, 78, 114, 1);
+}
+
+footer#menu-oculto img {
+    cursor: pointer;
 }
 
