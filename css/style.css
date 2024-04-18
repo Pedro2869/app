@@ -67,9 +67,15 @@ main#parte-principal {
     border-radius: 10px;
 
     margin: 30px;
+
+    color: white;
 }
 
 main .title-information-box h1 {
+    text-align: center;
+}
+
+main#parte-principal .title-information-box h4 {
     text-align: center;
 }
 
