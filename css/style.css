@@ -79,3 +79,10 @@ main#parte-principal .title-information-box h4 {
     text-align: center;
 }
 
+main#parte-principal .icons .windy,
+main#parte-principal .icons .hum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
